@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+:root{
+    --blue-color:#012F34;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    background: #014E56;
+    padding: 30px 0;
+}
+.nav-row img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav-row a{
+    color: #ffff;
+}
+.nav-row button{
+    padding: 10px 15px ;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+.nav-row button:hover{
+    border:3px solid red;
+    color: red;
+    cursor: pointer;
+}
+.nav-row a:hover{
+    outline: 2px solid red;
+}
+
+.hover{
+    background-image: url(./images/Group\ 7\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+ }
+ 
+ .hover-rov{
+     display: flex;
+     align-items: center;
+     gap: 70px;
+     padding: 80px 0;
+ 
+ }
+ .hover-rov h1{
+     color: #ffff;
+     font-family: sans-serif;
+     font-size: 88px;
+     font-weight: 600;
+     line-height: 88px;
+ }
+ .hover-rov span{
+     color: crimson;
+ }
+ .line{
+     width: 50px;
+     height: 4px;
+     gap: 0px;
+     opacity: 0px;
+     background: #F67E7E;
+     margin-bottom: 60px;
+ 
+ }
+ .hover-rov p{
+     color: #ffff;
+     font-family: sans-serif;
+     font-weight: 600;
+     line-height: 20px;
+     font-size: 20px;
+ }
+ .box3{
+    background-image: url(./images/Group\ 8\ Copy\ +\ Group\ 8\ Mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px 0;
+ }
+
+.matn{
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+.boxx-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+ }
+.boxx-call{
+    background: var(--blue-color);
+    padding: 30px 40px;
+    color: #ffff;
+    width:368px ;
+    margin: 0 auto;
+}
+.boxx-call img{
+    margin-bottom: 20px;
+}
+.boxx-call  h4{
+    color:  #79C8C7;
+    margin-bottom: 15px;
+}
+.shadow{
+    margin-top: 20px;
+}
+.hammer{
+    background-image: url(./images/Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    color: #ffff;
+    text-align: center;
+}
+.hammer h1{
+    margin-bottom: 20px;
+}
+.hanner-row{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.call{
+    background-image: url(./images/Group\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+.call-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-content button{
+    padding: 10px 15px ;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+.call-content button:hover{
+    border:3px solid red;
+    color: red;
+    cursor: pointer;
+}
+.call-content h1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.matnn{
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    position: absolute;
+}

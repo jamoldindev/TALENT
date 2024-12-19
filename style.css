@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    background: #014E56;
+    padding: 30px 0;
+}
+.nav-row img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav-row a{
+    color: #ffff;
+}
+.nav-row button{
+    padding: 10px 15px ;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+.nav-row button:hover{
+    border:3px solid red;
+    color: red;
+    cursor: pointer;
+}
+.nav-row a:hover{
+    outline: 2px solid red;
+}
+
+.hover{
+   background-image: url(./images/Group\ 7\ \(1\).png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 10px;
+}
+
+.hover-rov{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 80px 0;
+
+}
+.hover-rov h1{
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 88px;
+}
+.hover-rov span{
+    color: crimson;
+}
+.line{
+    width: 50px;
+    height: 4px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F67E7E;
+    margin-bottom: 60px;
+
+}
+.hover-rov p{
+    color: #ffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+}
+.buil{
+    background-image: url(./images/Group\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 150px;
+    background-position: center;
+}
+.buil-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.buil-left{ 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 88px;
+    text-align: left;
+    padding: 20px;
+}
+.buil-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.buil-content h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color:  #F67E7E;
+    margin-bottom: 20px;
+
+}
+.buil-content p{
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.rov{
+    background-image: url(./images/Group\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 70px;
+}
+.row-left h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+
+.row-left span{
+    color: #a4eaf15c;
+}
+
+.rov-right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.rov-right h4{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.box{
+    color: #a4eaf15c;
+
+}
+.rov-right p{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 10px;  
+    margin-bottom: 30px;
+}
+.call{
+    background-image: url(./images/Group\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+.call-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-content button{
+    padding: 10px 15px ;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+.call-content button:hover{
+    border:3px solid red;
+    color: red;
+    cursor: pointer;
+}
+.call-content h1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.content{
+    background-image: url(./images/Rectangle\ Copy\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.matnn{
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
